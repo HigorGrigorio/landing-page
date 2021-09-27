@@ -374,6 +374,10 @@ thead th {
     display: none;
 }
 
+.back-top {
+    display: none;
+}
+
 @media (max-width: 800px) {
 
     .home-content,
@@ -411,9 +415,11 @@ thead th {
         flex-direction: column;
         justify-content: center;
     }
-    .menu-content h1 a{
+
+    .menu-content h1 a {
         font-size: 4rem;
     }
+
     .menu-content ul li a {
         font-size: 3rem;
     }
